@@ -6,12 +6,14 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+
 @Entity
+@Table(name="Oder_List")
 public class orderEntity {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int ord_no;
+	private Integer ord_no;
 	private Integer mem_no;
 	private Integer ven_no;
 	private Integer dish_id;
