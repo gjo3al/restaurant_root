@@ -86,6 +86,9 @@ project(':restaurant_entry') {
     	api project(':restaurant_shared')
     	api project(':restaurant_member')
     	api project(':restaurant_menu')
+    	api project(':restaurant_order')
+    	api project(':restaurant_orderDetail')
+    	
     }
 }
 
