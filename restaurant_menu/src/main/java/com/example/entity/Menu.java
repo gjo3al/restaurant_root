@@ -21,7 +21,7 @@ public class Menu {
 	DishType dishType;
 	
 	public int getDishId() {
-		return dishId;
+		return dishId; 
 	}
 	public void setDishId(int dishId) {
 		this.dishId = dishId;
