@@ -1,4 +1,4 @@
-package com.restaurant_order_detail;
+package com.restaurant_orderDetail;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
