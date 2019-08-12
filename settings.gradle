@@ -3,9 +3,13 @@
 include 'restaurant_shared'
 include 'restaurant_member'
 include 'restaurant_menu'
+
 include 'restaurant_orderDetail'
 include 'restaurant_order'
 
+
+
+include 'restaurant_entry'
 
 
 rootProject.name = 'restaurant_root'
