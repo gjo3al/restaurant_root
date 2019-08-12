@@ -37,4 +37,9 @@ public class MenuServiceImpl implements MenuService {
 	public List<Menu> findByType(DishType dishType) {
 		return menuRepository.findByType(dishType);
 	}
+
+	@Override
+	public Menu insert(Menu menu) {
+		return menuRepository.save(menu);
+	}
 }

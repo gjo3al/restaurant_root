@@ -14,4 +14,6 @@ public interface MenuService {
 	public List<Menu> findByPriceLessThan(int dishPrice);
 
 	public List<Menu> findByType(DishType dishType);
+	
+	public Menu insert(Menu menu);
 }
