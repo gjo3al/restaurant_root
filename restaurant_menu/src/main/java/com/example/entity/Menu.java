@@ -11,7 +11,7 @@ public class Menu {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	int dishId;
+	Integer dishId;
 	String dishName;
 	int dishPrice;
 	
