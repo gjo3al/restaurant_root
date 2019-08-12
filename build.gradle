@@ -5,7 +5,14 @@ plugins {
 		//要放在子專案中的plugin，apply false代表不在本專案中使用，參考下方
 		//https://docs.gradle.org/3.0/release-notes.html#improved-plugins-dsl
 		id 'org.springframework.boot' version '2.1.7.RELEASE' apply false
-	}
+}
+
+//統一管理所有專案的wrapper版本
+allprojects {
+    wrapper {
+        gradleVersion = gradleVersion
+    }
+}
 	
 //子專案通用設定
 //考慮到子專案都是用STS建立，如果沒有特別的設定，subprojects可考慮刪除
