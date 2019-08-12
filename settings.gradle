@@ -1,0 +1,12 @@
+//將子專案包含進來
+//子專案必須放在母專案的資料夾下
+include 'restaurant_shared'
+include 'restaurant_member'
+include 'restaurant_menu'
+
+rootProject.name = 'restaurant_root'
+
+//手動將子專案的.gradle改名，使開發時容易辨認
+rootProject.children.each { subproject -> 
+     subproject.buildFileName = "${subproject.name}.gradle" 
+}
