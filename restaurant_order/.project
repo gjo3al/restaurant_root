@@ -22,6 +22,11 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>main-resources</name>
+			<type>2</type>
+			<location>C:/Users/gjo3a/eclipse-workspace/restaurant_root/restaurant_shared/src/main/resources</location>
+		</link>
+		<link>
 			<name>resources</name>
 			<type>2</type>
 			<location>C:/Users/gjo3a/eclipse-workspace/restaurant_root/restaurant_shared/src/main/resources</location>
