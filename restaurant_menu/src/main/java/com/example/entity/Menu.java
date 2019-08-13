@@ -1,7 +1,8 @@
 package com.example.entity;
 
-import javax.persistence.Convert;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -17,7 +18,7 @@ public class Menu {
 	
 	//自訂Enum與儲存於資料庫中類型的轉換
 	//可在application.yml中加上logging.level.org.hibernate.type.descriptor.sql: trace觀看sql參數的變化
-	@Convert(converter = DishTypeConverter.class)
+	@Enumerated(EnumType.STRING)
 	DishType dishType;
 	
 	public int getDishId() {
@@ -39,7 +40,7 @@ public class Menu {
 		this.dishPrice = dishPrice;
 	}
 	public String getDishType() {
-		return dishType.type();
+		return dishType.name();
 	}
 	public void setDishType(DishType dishType) {
 		this.dishType= dishType;

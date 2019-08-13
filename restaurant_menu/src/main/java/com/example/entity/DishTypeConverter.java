@@ -1,4 +1,4 @@
-package com.example.entity;
+/*package com.example.entity;
 
 import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;
@@ -15,4 +15,4 @@ public class DishTypeConverter implements AttributeConverter<DishType, String> {
 	public DishType convertToEntityAttribute(String dbData) {
 		return DishType.fromType(dbData);
 	}
-}
+}*/
