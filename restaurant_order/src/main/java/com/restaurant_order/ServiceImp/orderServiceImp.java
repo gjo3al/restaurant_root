@@ -4,8 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.restaurant_order.Entity.orderEntity;
+import com.restaurant_order.Repository.orderRepository;
 import com.restaurant_order.Service.orderService;
-import com.restaurant_order.repository.orderRepository;
 
 @Service
 public class orderServiceImp implements orderService {
