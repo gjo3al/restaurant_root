@@ -29,12 +29,12 @@
 		<link>
 			<name>main-resources</name>
 			<type>2</type>
-			<location>C:/Users/gjo3a/OneDrive/桌面/restaurant_root/restaurant_shared/src/main/resources</location>
+			<location>/Users/chenpo-hsi/eclipse/java-2019-06/Eclipse.app/Contents/Eclipse/C::/Users/gjo3a/OneDrive/桌面/restaurant_root/restaurant_shared/src/main/resources</location>
 		</link>
 		<link>
 			<name>resources</name>
 			<type>2</type>
-			<location>C:/Users/gjo3a/eclipse-workspace/restaurant_root/restaurant_shared/src/main/resources</location>
+			<location>/Users/chenpo-hsi/restaurant_root/restaurant_shared/src/main/resources</location>
 		</link>
 	</linkedResources>
 </projectDescription>
