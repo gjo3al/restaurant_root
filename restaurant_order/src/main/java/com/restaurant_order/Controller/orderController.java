@@ -23,8 +23,8 @@ public class orderController {
 //	@Autowired
 //	orderRepository  orderRepository;
 	
-	@GetMapping("/order/{order_no}") 
-	public orderEntity findfindByOrder_no(@PathVariable("ord_no")Integer ord_no) {
+	@GetMapping("/order/{ord_no}") 
+	public orderEntity findfindByOrder_no(@PathVariable("ord_no")int ord_no) {
 		return orderServiceImp.findByOrd_no(ord_no);
 	}
 	
