@@ -1,4 +1,4 @@
-package com.restaurant_order.Repository;
+package com.restaurant_order.repository;
 
 import java.util.List;
 import java.util.Optional;
@@ -15,7 +15,5 @@ import com.restaurant_order.Entity.orderEntity;
 public interface orderRepository extends JpaRepository<orderEntity, Integer>{
 
 	
-	@Query(value = "insert into order_List(mem_no,ven_no,dish_id,dish_name,amount) values(?,?,?,N?,?)",nativeQuery = true)
-	  List<orderEntity> saveorupdate(orderEntity orderEntity);
 
 }
